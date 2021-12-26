@@ -325,6 +325,10 @@ svg{
   top: 96%;
 }
 
+.slick-disabled{
+  opacity: 0.5;
+}
+
 .slick-arrow{
   border: none;
   cursor: pointer;
@@ -644,10 +648,10 @@ svg{
     left: 0;
     right: 0;
     z-index: 1;
+    transition: all 0.5s;
   }
   .menu__list.menu__list-active{
     transform: translateY(0%);
-    transition: all 0.5s;
   }
   .menu__item{
     color: #fff;
