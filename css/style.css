@@ -31,7 +31,8 @@ a {
   max-width: 1270px;
   padding: 0 10px;
   margin: 0 auto;
-  min-height: 100vh;
+  overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .header__top{
